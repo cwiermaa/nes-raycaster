@@ -1,0 +1,1 @@
+.include "mmc3_fixed.asm"
