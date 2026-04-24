@@ -3,5 +3,5 @@ head.bin
 [header]
 
 [objects]
-build.o
+main.o
 [objects]

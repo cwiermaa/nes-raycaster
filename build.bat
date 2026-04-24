@@ -1,5 +1,6 @@
 @echo off
+set TOOLS=%~dp0tools
 pause
-wla-6502 -o main.asm build.o
-wlalink -v link.txt build.nes
+"%TOOLS%\wla-6502.exe" -o main.asm main.o
+"%TOOLS%\wlalink.exe" -v link.txt build.nes
 pause
