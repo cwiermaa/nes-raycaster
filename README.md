@@ -2,6 +2,8 @@
 
 A real-time raycasting-style renderer implemented in 6502 assembly for the Nintendo Entertainment System (NES).
 
+[![Watch Demo](https://img.youtube.com/vi/KcOneF-dLfc/0.jpg)](https://www.youtube.com/watch?v=KcOneF-dLfc)
+
 ## Overview
 
 This project explores rendering 3D-like environments on NES hardware using a raycasting approach adapted to the platform’s constraints.
@@ -109,7 +111,7 @@ Other implementations often reduce resolution to improve performance or expand c
 ```text id="v4xk1r"
 code/   - Core renderer logic and generated drawing routines
 data/   - Lookup tables and supporting data
-tools/  - Development utilities (e.g., WallCreator)
+tools/  - Development utilities (e.g., wall_creator)
 ```
 
 Some texture data resides in `code/` because it is compiled into executable drawing routines rather than stored as raw data.
